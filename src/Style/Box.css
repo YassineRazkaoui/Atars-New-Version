@@ -1,0 +1,48 @@
+.Box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1px 24%;
+}
+.flight {
+  width: 17px;
+  margin-right: 8px;
+}
+.hotels {
+  width: 19px;
+  margin-right: 8px;
+}
+.car {
+  width: 17px;
+  margin-right: 8px;
+}
+.restaurant {
+  width: 16px;
+  margin-right: 8px;
+}
+.Box-element ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: black;
+  padding: 10px;
+}
+
+.Box-element ul li a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.selected,
+.selected:visited {
+  border-radius: 6px;
+  background-color: #233c7b;
+  color: white;
+}
+
+.selected img {
+  filter: brightness(0) invert(1); /* Invert the color of the image */
+}

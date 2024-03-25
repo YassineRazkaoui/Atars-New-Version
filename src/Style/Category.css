@@ -1,0 +1,74 @@
+.Category-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Category-ul li a{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 9vh;
+}
+.Category-ul li a img{
+  display: flex;
+  flex-direction: column;
+  
+  height: 4vh;
+  margin: 0;
+}
+.Category-ul li{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 9vh;
+}
+.continer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* padding: 1px 24%; */
+}
+.Category-element {
+  width: 88vw;
+}
+.Beachfront {
+  width: 2vw;
+  margin-right: 0.5vw;
+}
+.trending {
+  width: 2vw;
+  margin-right: 0.5vw;
+}
+.Design {
+  width: 1.7vw;
+  margin-right: 0.5vw;
+}
+.Cabins {
+  width: 2vw;
+  margin-right: 0.5vw;
+}
+.Desert {
+  width: 2vw;
+  margin-right: 0.5vw;
+}
+.Castles {
+  width: 1vw;
+  margin-right: 0.5vw;
+}
+.Comping {
+  width: 2vw;
+  margin-right: 0.5vw;
+}
+.Farms {
+  width: 1.8vw;
+  margin-right: 0.5vw;
+}
+.Islands {
+  width: 2vw;
+  margin-right: 0.5vw;
+}
+.Rooms {
+  width: 2vw;
+  margin-right: 0.5vw;
+}

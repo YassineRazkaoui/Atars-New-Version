@@ -1,0 +1,65 @@
+import React, { useState } from "react";
+import "./Navbar.css";
+import Logo_earth from "../../assets/earth_langue.png";
+import Logo_Atars from "../../assets/logo_atars.png";
+
+const Navbar = () => {
+  const [activeLink, setActiveLink] = useState(null);
+
+  const handleClick = (index) => {
+    setActiveLink(index);
+  };
+
+  return (
+    <div className="navbar">
+      <div className="logo">
+        <a href="">
+          <img src={Logo_Atars} alt="" className="logo-atars" />
+        </a>
+      </div>
+
+      <div className="element">
+        <ul>
+          <li>
+            <a
+              href="#"
+              className={activeLink === 0 ? "active" : ""}
+              onClick={() => handleClick(0)}
+            >
+              Trips
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className={activeLink === 1 ? "active" : ""}
+              onClick={() => handleClick(1)}
+            >
+              Review
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className={activeLink === 2 ? "active" : ""}
+              onClick={() => handleClick(2)}
+            >
+              Support
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="logo-earth">
+        <img src={Logo_earth} alt="" className="earth" />
+      </div>
+
+      <div className="button-sign">
+        <input type="button" value="Register" />
+        <input type="button" value="Sign in" />
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

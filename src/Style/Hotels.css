@@ -1,0 +1,21 @@
+.cont {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3vw;
+}
+.hotels-img {
+  position: relative;
+  max-width: 90vw;
+  min-height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18vw, 2fr));
+  gap: 20px;
+}
+.hotels-img img {
+  width: 15vw;
+}
+.card {
+  width: 15vw;
+}
