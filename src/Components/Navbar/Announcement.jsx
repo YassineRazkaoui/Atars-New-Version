@@ -13,15 +13,10 @@ function Announcement() {
             Marrakesh, a former imperial city in western Morocco, is a major
             economic center and home to mosques, palaces and gardens. The medina
             is a densely packed, walled medieval city dating to the Berber
-            Empire. is a densely packed, walled medieval city dating to the
-            Berbere. is a densely packed, walled medieval city dating to the
-            Berber Empire. Berber Empire. is a densely packed, walled medieval
-            city dating to the Berber Empire. is a densely packed, walled
-            medieval city dating to the Berber Empire.
+            Empire 
+
           </p>
-          <button type="submit" x>
-            Read More
-          </button>
+          <button type="submit">Read More</button>
         </div>
       </div>
     </div>

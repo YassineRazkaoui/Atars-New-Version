@@ -17,11 +17,12 @@
   height: 4vh;
   margin: 0;
 }
-.Category-ul li{
+.Category-ul li {
   display: flex;
   align-items: center;
   gap: 0.4rem;
   min-height: 9vh;
+  width: 10vw;
 }
 .continer {
   width: 100vw;

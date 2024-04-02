@@ -28,7 +28,7 @@ function Search() {
         <div className="check-in-content">
           <label htmlFor="destination" className="check-in-label">
             {" "}
-            Hotel{" "}
+            Check in{" "}
           </label>
           <input
             type="date"
@@ -43,7 +43,7 @@ function Search() {
         <div className="check-out-content">
           <label htmlFor="destination" className="check-out-label">
             {" "}
-            Hotel{" "}
+            Check out{" "}
           </label>
           <input
             type="date"

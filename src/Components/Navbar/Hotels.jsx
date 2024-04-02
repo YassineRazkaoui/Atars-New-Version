@@ -71,11 +71,9 @@ export const Hotels = () => {
         {hotels.map((item, index) => (
           <div className="card" key={index}>
             <img src={item.url} alt={item.name} />
-            <br />
+            
             <span>{item.name}</span>
-            <br />
             <span>{item.description}</span>
-            <br />
 
             <span>{item.star}</span>
             <span>{item.review}</span>

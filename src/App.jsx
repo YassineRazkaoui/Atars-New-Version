@@ -7,6 +7,7 @@ import Category from "./Components/Navbar/Category";
 import { Hotels } from "./Components/Navbar/Hotels";
 import Announcement from "./Components/Navbar/Announcement";
 import Guide from "./Components/Navbar/Guide";
+import Sign from "./Components/Navbar/Sign";
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
       <Hotels />
       <Announcement />
       <Guide />
+      <Announcement />
+      <Sign/>
     </div>
   );
 };
